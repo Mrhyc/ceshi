@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: generate-table
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: huang
+Implementation-Vendor-Id: iie.cas
+Build-Jdk: 1.8.0_92
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/generate-table
+Created-By: Maven Integration for Eclipse
+

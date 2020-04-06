@@ -1,0 +1,28 @@
+server:
+  port: 9998
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  servlet:
+    multipart:
+      enabled: true
+      location: /home/
+      max-file-size: 10MB
+      max-request-size: 10MB
+      file-size-threshold: 0
+  data:
+    elasticsearch:
+      cluster-name:  my-application
+      cluster-nodes: 192.168.31.75:9300
+  redis:
+      password: 112113114
+      cluster:
+        nodes:
+        - 192.168.31.75:7000
+        - 192.168.31.75:7001
+        - 192.168.31.75:7002
+        - 192.168.31.75:7003
+        - 192.168.31.75:7004
+        - 192.168.31.75:7005
